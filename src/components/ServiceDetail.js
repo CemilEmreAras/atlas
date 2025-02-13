@@ -56,7 +56,7 @@ const ServiceDetail = () => {
       endüstriyel taşıma çözümleri sunuyoruz.
       
       Ekipman Parkurumuz:
-      • Vinçler (50-500 ton kapasiteli)
+      • Vinçler
       • Özel Taşıma Araçları
       • Hidrolik Sistemler
       • Güvenlik Ekipmanları`,

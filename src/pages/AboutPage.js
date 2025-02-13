@@ -36,8 +36,7 @@ const AboutPage = () => {
                 <h2 className="text-2xl font-bold text-gray-800">Misyonumuz</h2>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                Müşterilerimize en yüksek kalitede metal sanayi çözümleri sunarak, sektörde güvenilir ve yenilikçi bir iş ortağı olmak. Sürdürülebilir üretim pratikleri ile çevreye saygılı, çalışanlarımıza değer veren ve topluma katkı sağlayan bir kuruluş olmayı hedefliyoruz.
-              </p>
+              Sürdürülebilirlik ve verimlilik ilkeleri çerçevesinde, güvenli, yüksek kaliteli ve teknolojik olarak ileri düzeyde endüstriyel projeler tasarlamak ve inşa etmek. İleri mühendislik çözümleri ile operasyonel mükemmeliyet hedefleyerek, stratejik paydaş işbirlikleriyle sektörde değer yaratmak. Çalışanlarımızın yetkinliklerini sürekli geliştiren, inovasyona dayalı bir çalışma kültürü oluşturarak, endüstriyel alanda liderlik vasfını pekiştirmek.              </p>
             </div>
 
             {/* Vizyon */}
@@ -51,8 +50,7 @@ const AboutPage = () => {
                 <h2 className="text-2xl font-bold text-gray-800">Vizyonumuz</h2>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                Global metal sanayi sektöründe lider konuma ulaşarak, yenilikçi teknolojiler ve sürdürülebilir çözümlerle sektöre yön veren bir marka olmak. Müşteri memnuniyeti, kalite ve güvenilirlik ilkelerinden ödün vermeden büyümeyi hedefliyoruz.
-              </p>
+              İnsanlık ve doğa ile uyum içinde faaliyet gösteren, ağır sanayi üretiminde dünya standartlarını en yüksek düzeyde benimseyen, yenilikçi ve sürdürülebilir çözümlerle sektördeki değişimlere öncülük eden bir firma olmak. Çevre dostu ve insan sağlığına duyarlı üretim süreçlerini ön planda tutarak, sektördeki liderliğimizi pekiştirmek ve küresel ölçekte örnek gösterilen bir kuruluş haline gelmek.              </p>
             </div>
           </div>
         </div>
@@ -70,18 +68,17 @@ const AboutPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
                 <p className="text-gray-600 leading-relaxed">
-                  1998 yılında kurulan şirketimiz, metal sanayi sektöründe çeyrek asırlık tecrübesiyle öncü kuruluşlar arasında yer almaktadır. Modern üretim tesislerimiz ve uzman kadromuzla, müşterilerimize en kaliteli hizmeti sunmaya devam ediyoruz.
+                AHI, 2021 yılından itibaren petrol, gaz, demir çelik, enerji ve petrokimya sektörlerinde üstün mühendislik çözümleri ve kapsamlı inşaat hizmetleri sunan, sektördeki liderlik yolunda kararlı adımlarla ilerleyen bir kuruluştur. Makine İmalatı, Çelik Konstrüksiyon, Ağır Yük Taşıma ve Bakım-Onarım hizmetlerini anahtar teslimi olarak sunarak, müşterilerine en yüksek standartlarda değer yaratmayı hedeflemektedir.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  10.000 m²'lik üretim tesisimizde, en son teknoloji makine parkurumuz ile çelik konstrüksiyon, makine imalat, ağır yük taşıma ve bakım onarım hizmetleri vermekteyiz.
-                </p>
+                Kuruluşundan bu yana, özellikle demir çelik sektöründe pek çok başarılı projeye imza atmış olan AHI, her adımında kaliteyi, güvenliği ve mükemmeliyeti ön planda tutarak sektördeki liderlik hedefini güçlendirmektedir. Kurumsal yapısını inşa ederken, sürdürülebilirlik ve yenilikçi yaklaşım ilkelerini benimseyerek, tüm faaliyetlerinde mükemmel iş gücü ve güvenli çalışma ortamı sağlamayı kendine vizyon edinmiştir.                </p>
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="border-l-4 border-yellow-500 pl-4">
-                    <div className="text-2xl font-bold text-gray-800">10.000 m²</div>
+                    <div className="text-2xl font-bold text-gray-800">1.000 m²</div>
                     <div className="text-gray-600">Üretim Alanı</div>
                   </div>
                   <div className="border-l-4 border-yellow-500 pl-4">
-                    <div className="text-2xl font-bold text-gray-800">1998</div>
+                    <div className="text-2xl font-bold text-gray-800">2021</div>
                     <div className="text-gray-600">Kuruluş Yılı</div>
                   </div>
                 </div>

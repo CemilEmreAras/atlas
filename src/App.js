@@ -23,7 +23,7 @@ function App() {
               <Hero />
               <About />
               <Services />
-              <Contact />
+             
             </>
           } />
           <Route path="/service/:id" element={<ServiceDetail />} />

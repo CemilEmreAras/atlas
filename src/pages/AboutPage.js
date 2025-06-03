@@ -15,7 +15,7 @@ const AboutPage = () => {
           <div className="max-w-3xl">
             <h1 className="text-5xl font-bold text-white mb-6">Hakkımızda</h1>
             <p className="text-xl text-gray-200">
-              25 yılı aşkın tecrübemizle metal sanayi sektöründe öncü çözümler sunuyoruz.
+              15 yılı aşkın tecrübemizle metal sanayi sektöründe öncü çözümler sunuyoruz.
             </p>
           </div>
         </div>
@@ -219,7 +219,7 @@ const AboutPage = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-yellow-500 mb-2">25+</div>
+              <div className="text-4xl font-bold text-yellow-500 mb-2">15+</div>
               <div className="text-gray-300">Yıllık Tecrübe</div>
             </div>
             <div className="text-center">

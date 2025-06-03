@@ -1,8 +1,8 @@
 const AboutPage = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-14 sm:pt-16 md:pt-20">
       {/* Hero Section */}
-      <div className="relative h-[500px]">
+      <div className="relative h-[250px] xs:h-[300px] sm:h-[400px] md:h-[500px]">
         <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
           <img
             src="./assets/birinci.jpg"
@@ -11,10 +11,10 @@ const AboutPage = () => {
           />
           <div className="absolute inset-0 bg-black/60"></div>
         </div>
-        <div className="relative container mx-auto px-4 h-full flex items-center">
+        <div className="relative container mx-auto px-3 sm:px-4 h-full flex items-center">
           <div className="max-w-3xl">
-            <h1 className="text-5xl font-bold text-white mb-6">Hakkımızda</h1>
-            <p className="text-xl text-gray-200">
+            <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-3 sm:mb-4 md:mb-6">Hakkımızda</h1>
+            <p className="text-sm xs:text-base sm:text-lg md:text-xl text-gray-200">
               15 yılı aşkın tecrübemizle metal sanayi sektöründe öncü çözümler sunuyoruz.
             </p>
           </div>
@@ -22,104 +22,72 @@ const AboutPage = () => {
       </div>
 
       {/* Misyon & Vizyon */}
-      <div className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div className="py-8 xs:py-12 sm:py-16 md:py-20 bg-gray-50">
+        <div className="container mx-auto px-3 sm:px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xs:gap-8 md:gap-12">
             {/* Misyon */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 transform hover:-translate-y-1 transition-transform duration-300">
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center mr-4">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg p-4 sm:p-6 md:p-8 transform hover:-translate-y-1 transition-transform duration-300">
+              <div className="flex items-center mb-3 sm:mb-4 md:mb-6">
+                <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 bg-yellow-500 rounded-lg flex items-center justify-center mr-2 xs:mr-3 sm:mr-4">
+                  <svg className="w-4 h-4 xs:w-5 xs:h-5 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
                   </svg>
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800">Misyonumuz</h2>
+                <h2 className="text-lg xs:text-xl sm:text-2xl font-bold text-gray-800">Misyonumuz</h2>
               </div>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-xs xs:text-sm sm:text-base text-gray-600 leading-relaxed">
               Sürdürülebilirlik ve verimlilik ilkeleri çerçevesinde, güvenli, yüksek kaliteli ve teknolojik olarak ileri düzeyde endüstriyel projeler tasarlamak ve inşa etmek. İleri mühendislik çözümleri ile operasyonel mükemmeliyet hedefleyerek, stratejik paydaş işbirlikleriyle sektörde değer yaratmak. Çalışanlarımızın yetkinliklerini sürekli geliştiren, inovasyona dayalı bir çalışma kültürü oluşturarak, endüstriyel alanda liderlik vasfını pekiştirmek.              </p>
             </div>
 
             {/* Vizyon */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 transform hover:-translate-y-1 transition-transform duration-300">
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center mr-4">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg p-4 sm:p-6 md:p-8 transform hover:-translate-y-1 transition-transform duration-300">
+              <div className="flex items-center mb-3 sm:mb-4 md:mb-6">
+                <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 bg-yellow-500 rounded-lg flex items-center justify-center mr-2 xs:mr-3 sm:mr-4">
+                  <svg className="w-4 h-4 xs:w-5 xs:h-5 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
                   </svg>
                 </div>
-                <h2 className="text-2xl font-bold text-gray-800">Vizyonumuz</h2>
+                <h2 className="text-lg xs:text-xl sm:text-2xl font-bold text-gray-800">Vizyonumuz</h2>
               </div>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-xs xs:text-sm sm:text-base text-gray-600 leading-relaxed">
               İnsanlık ve doğa ile uyum içinde faaliyet gösteren, ağır sanayi üretiminde dünya standartlarını en yüksek düzeyde benimseyen, yenilikçi ve sürdürülebilir çözümlerle sektördeki değişimlere öncülük eden bir firma olmak. Çevre dostu ve insan sağlığına duyarlı üretim süreçlerini ön planda tutarak, sektördeki liderliğimizi pekiştirmek ve küresel ölçekte örnek gösterilen bir kuruluş haline gelmek.              </p>
             </div>
-          </div>
-        </div>
-      </div>
 
-      {/* Şirket Bilgileri */}
-      <div className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold mb-4">Şirketimiz Hakkında</h2>
-              <div className="w-24 h-1 bg-yellow-500 mx-auto"></div>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div className="space-y-6">
-                <p className="text-gray-600 leading-relaxed">
-                AHI, 2021 yılından itibaren petrol, gaz, demir çelik, enerji ve petrokimya sektörlerinde üstün mühendislik çözümleri ve kapsamlı inşaat hizmetleri sunan, sektördeki liderlik yolunda kararlı adımlarla ilerleyen bir kuruluştur. Makine İmalatı, Çelik Konstrüksiyon, Ağır Yük Taşıma ve Bakım-Onarım hizmetlerini anahtar teslimi olarak sunarak, müşterilerine en yüksek standartlarda değer yaratmayı hedeflemektedir.
-                </p>
-                <p className="text-gray-600 leading-relaxed">
-                Kuruluşundan bu yana, özellikle demir çelik sektöründe pek çok başarılı projeye imza atmış olan AHI, her adımında kaliteyi, güvenliği ve mükemmeliyeti ön planda tutarak sektördeki liderlik hedefini güçlendirmektedir. Kurumsal yapısını inşa ederken, sürdürülebilirlik ve yenilikçi yaklaşım ilkelerini benimseyerek, tüm faaliyetlerinde mükemmel iş gücü ve güvenli çalışma ortamı sağlamayı kendine vizyon edinmiştir.                </p>
-                <div className="grid grid-cols-2 gap-6 mt-8">
-                  <div className="border-l-4 border-yellow-500 pl-4">
-                    <div className="text-2xl font-bold text-gray-800">1.000 m²</div>
-                    <div className="text-gray-600">Üretim Alanı</div>
-                  </div>
-                  <div className="border-l-4 border-yellow-500 pl-4">
-                    <div className="text-2xl font-bold text-gray-800">2021</div>
-                    <div className="text-gray-600">Kuruluş Yılı</div>
-                  </div>
-                </div>
+            <div className="grid grid-cols-1 xs:grid-cols-2 gap-3 xs:gap-4 sm:gap-6">
+              <div className="aspect-square rounded-xl sm:rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src="./assets/ikinci.jpg" 
+                  alt="Metal İşçiliği" 
+                  className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                />
               </div>
-              
-              <div className="grid grid-cols-2 gap-6">
-                <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
-                  <img 
-                    src="./assets/ikinci.jpg" 
-                    alt="Metal İşçiliği" 
-                    className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
-                  <img 
-                    src="./assets/ucuncu.jpg" 
-                    alt="Çelik Üretimi" 
-                    className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
-                  <img 
-                    src="./assets/dort.jpg" 
-                    alt="CNC İşleme" 
-                    className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
-                  <img 
-                    src="./assets/bes.jpg" 
-                    alt="Kalite Kontrol" 
-                    className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
+              <div className="aspect-square rounded-xl sm:rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src="./assets/ucuncu.jpg" 
+                  alt="Çelik Üretimi" 
+                  className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div className="aspect-square rounded-xl sm:rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src="./assets/dort.jpg" 
+                  alt="CNC İşleme" 
+                  className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div className="aspect-square rounded-xl sm:rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src="./assets/bes.jpg" 
+                  alt="Kalite Kontrol" 
+                  className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
+                />
               </div>
             </div>
 
             {/* Sertifikalar ve Belgeler */}
-            <div className="mt-20">
-              <h3 className="text-2xl font-bold text-center mb-8">Sertifikalarımız ve Belgelerimiz</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="mt-8 xs:mt-12 sm:mt-16 md:mt-20">
+              <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-center mb-4 xs:mb-6 sm:mb-8">Sertifikalarımız ve Belgelerimiz</h3>
+              <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-3 xs:gap-4 sm:gap-8">
                 <div className="bg-gray-50 p-6 rounded-xl text-center hover:shadow-lg transition-shadow">
                   <div className="w-16 h-16 bg-yellow-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg className="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -155,6 +123,38 @@ const AboutPage = () => {
                   </div>
                   <h4 className="font-bold mb-2">TSE</h4>
                   <p className="text-sm text-gray-600">Türk Standartları</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Şirket Bilgileri */}
+      <div className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold mb-4">Şirketimiz Hakkında</h2>
+              <div className="w-24 h-1 bg-yellow-500 mx-auto"></div>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <p className="text-gray-600 leading-relaxed">
+                AHI, 2021 yılından itibaren petrol, gaz, demir çelik, enerji ve petrokimya sektörlerinde üstün mühendislik çözümleri ve kapsamlı inşaat hizmetleri sunan, sektördeki liderlik yolunda kararlı adımlarla ilerleyen bir kuruluştur. Makine İmalatı, Çelik Konstrüksiyon, Ağır Yük Taşıma ve Bakım-Onarım hizmetlerini anahtar teslimi olarak sunarak, müşterilerine en yüksek standartlarda değer yaratmayı hedeflemektedir.
+                </p>
+                <p className="text-gray-600 leading-relaxed">
+                Kuruluşundan bu yana, özellikle demir çelik sektöründe pek çok başarılı projeye imza atmış olan AHI, her adımında kaliteyi, güvenliği ve mükemmeliyeti ön planda tutarak sektördeki liderlik hedefini güçlendirmektedir. Kurumsal yapısını inşa ederken, sürdürülebilirlik ve yenilikçi yaklaşım ilkelerini benimseyerek, tüm faaliyetlerinde mükemmel iş gücü ve güvenli çalışma ortamı sağlamayı kendine vizyon edinmiştir.                </p>
+                <div className="grid grid-cols-2 gap-6 mt-8">
+                  <div className="border-l-4 border-yellow-500 pl-4">
+                    <div className="text-2xl font-bold text-gray-800">1.000 m²</div>
+                    <div className="text-gray-600">Üretim Alanı</div>
+                  </div>
+                  <div className="border-l-4 border-yellow-500 pl-4">
+                    <div className="text-2xl font-bold text-gray-800">2021</div>
+                    <div className="text-gray-600">Kuruluş Yılı</div>
+                  </div>
                 </div>
               </div>
             </div>

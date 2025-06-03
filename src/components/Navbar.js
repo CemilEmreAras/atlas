@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -18,7 +19,6 @@ const Navbar = () => {
   const scrollToSection = (sectionId) => {
     if (window.location.pathname !== '/') {
       navigate('/');
-      // Ana sayfaya yönlendirdikten sonra scroll işlemi için timeout
       setTimeout(() => {
         const element = document.getElementById(sectionId);
         if (element) {
@@ -35,6 +35,12 @@ const Navbar = () => {
 
   const goToHome = () => {
     navigate('/');
+    setIsOpen(false);
+  };
+
+  const handleNavigation = (path) => {
+    navigate(path);
+    setIsOpen(false);
   };
 
   return (
@@ -56,7 +62,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden lg:flex space-x-8">
             <button 
               onClick={goToHome}
               className="text-gray-800 hover:text-yellow-500 transition-colors"
@@ -64,19 +70,19 @@ const Navbar = () => {
               Anasayfa
             </button>
             <button 
-              onClick={() => navigate('/about')}
+              onClick={() => handleNavigation('/about')}
               className="text-gray-800 hover:text-yellow-500 transition-colors"
             >
               Hakkımızda
             </button>
             <button 
-              onClick={() => navigate('/services')}
+              onClick={() => handleNavigation('/services')}
               className="text-gray-800 hover:text-yellow-500 transition-colors"
             >
               Faaliyet Alanları
             </button>
             <button 
-              onClick={() => navigate('/contact')}
+              onClick={() => handleNavigation('/contact')}
               className="text-gray-800 hover:text-yellow-500 transition-colors"
             >
               İletişim
@@ -84,14 +90,53 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
-            <button className="text-gray-800">
+          <div className="lg:hidden">
+            <button 
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-gray-800 hover:text-yellow-500 transition-colors p-2"
+            >
               <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"/>
+                {isOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"/>
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"/>
+                )}
               </svg>
             </button>
           </div>
         </div>
+
+        {/* Mobile Menu */}
+        {isOpen && (
+          <div className="lg:hidden">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t">
+              <button 
+                onClick={goToHome}
+                className="block w-full text-left px-3 py-2 text-gray-800 hover:text-yellow-500 hover:bg-gray-50 transition-colors"
+              >
+                Anasayfa
+              </button>
+              <button 
+                onClick={() => handleNavigation('/about')}
+                className="block w-full text-left px-3 py-2 text-gray-800 hover:text-yellow-500 hover:bg-gray-50 transition-colors"
+              >
+                Hakkımızda
+              </button>
+              <button 
+                onClick={() => handleNavigation('/services')}
+                className="block w-full text-left px-3 py-2 text-gray-800 hover:text-yellow-500 hover:bg-gray-50 transition-colors"
+              >
+                Faaliyet Alanları
+              </button>
+              <button 
+                onClick={() => handleNavigation('/contact')}
+                className="block w-full text-left px-3 py-2 text-gray-800 hover:text-yellow-500 hover:bg-gray-50 transition-colors"
+              >
+                İletişim
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );

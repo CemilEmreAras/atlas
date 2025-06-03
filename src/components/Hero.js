@@ -1,4 +1,8 @@
+import { useNavigate } from 'react-router-dom';
+
 const Hero = () => {
+  const navigate = useNavigate();
+
   const scrollToServices = () => {
     const servicesSection = document.getElementById('services');
     if (servicesSection) {
@@ -38,7 +42,7 @@ const Hero = () => {
             </p>
             <div className="flex gap-4">
               <button 
-                onClick={scrollToAbout}
+                onClick={() => navigate('/about')}
                 className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-4 px-8 rounded-lg transition-colors"
               >
                 HAKKIMIZDA

@@ -84,33 +84,33 @@ const AboutPage = () => {
                 </div>
               </div>
               
-              <div className="grid grid-cols-2 gap-4">
-                <div className="aspect-square rounded-2xl overflow-hidden">
+              <div className="grid grid-cols-2 gap-6">
+                <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
                   <img 
                     src="./assets/ikinci.jpg" 
                     alt="Metal İşçiliği" 
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
                   />
                 </div>
-                <div className="aspect-square rounded-2xl overflow-hidden translate-y-8">
+                <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
                   <img 
                     src="./assets/ucuncu.jpg" 
                     alt="Çelik Üretimi" 
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
                   />
                 </div>
-                <div className="aspect-square rounded-2xl overflow-hidden -translate-y-8">
+                <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
                   <img 
                     src="./assets/dort.jpg" 
                     alt="CNC İşleme" 
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
                   />
                 </div>
-                <div className="aspect-square rounded-2xl overflow-hidden">
+                <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
                   <img 
                     src="./assets/bes.jpg" 
                     alt="Kalite Kontrol" 
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
                   />
                 </div>
               </div>

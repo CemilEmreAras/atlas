@@ -68,7 +68,7 @@ const ServicesPage = () => {
                     alt={service.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/40 transition-colors"></div>
                   <h3 className="absolute bottom-4 left-4 text-2xl font-bold text-white">{service.title}</h3>
                 </div>
                 <div className="p-6">

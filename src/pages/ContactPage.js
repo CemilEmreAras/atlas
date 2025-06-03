@@ -69,9 +69,9 @@ const ContactPage = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                 </svg>
                 <div>
-                  <p className="text-gray-600">Organize Sanayi Bölgesi</p>
-                  <p className="text-gray-600">1. Cadde No:123</p>
-                  <p className="text-gray-600">34000 İstanbul/Türkiye</p>
+                  <p className="text-gray-600">Ulukent Sanayi Bölgesi</p>
+                  <p className="text-gray-600">10001 Sokak No:36/1</p>
+                  <p className="text-gray-600">35660 Menemen/İzmir/Türkiye</p>
                 </div>
               </div>
             </div>
@@ -84,13 +84,13 @@ const ContactPage = () => {
                   <svg className="w-6 h-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                   </svg>
-                  <span className="text-gray-600">+90 (555) 123 45 67</span>
+                  <span className="text-gray-600">+90 (538) 328 31 24</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <svg className="w-6 h-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                   </svg>
-                  <span className="text-gray-600">info@metaltech.com</span>
+                  <span className="text-gray-600">info@atlasheavyindustry.com</span>
                 </div>
               </div>
             </div>
@@ -99,8 +99,8 @@ const ContactPage = () => {
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <h3 className="text-xl font-bold text-gray-800 mb-4">Çalışma Saatleri</h3>
               <div className="space-y-2">
-                <p className="text-gray-600">Pazartesi - Cuma: 09:00 - 18:00</p>
-                <p className="text-gray-600">Cumartesi: 09:00 - 14:00</p>
+                <p className="text-gray-600">Pazartesi - Cuma: 08:00 - 18:00</p>
+                <p className="text-gray-600">Cumartesi: 08:00 - 13:00</p>
                 <p className="text-gray-600">Pazar: Kapalı</p>
               </div>
             </div>
@@ -111,7 +111,7 @@ const ContactPage = () => {
         <div className="mt-16">
           <div className="bg-white rounded-2xl shadow-lg p-2 h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.443928507194!2d28.89058687668829!3d41.04163017134391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa4a1cbf7f91d%3A0x4f0c8956a79f41b2!2zxLBzdGFuYnVsIFNhbmF5aSDDh2FyxZ_EsXPEsQ!5e0!3m2!1str!2str!4v1709913046746!5m2!1str!2str"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.8781457821588!2d27.031866!3d38.53657700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbd146add73745%3A0x999172bd3be130b4!2sAtlas%20Heavy%20Industry!5e0!3m2!1str!2str!4v1748955829573!5m2!1str!2str"
               className="w-full h-full rounded-xl"
               style={{ border: 0 }}
               allowFullScreen=""

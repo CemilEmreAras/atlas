@@ -7,28 +7,28 @@ const ServicesPage = () => {
     {
       id: 1,
       title: "Çelik Konstrüksiyon",
-      image: "https://images.unsplash.com/photo-1565793298287-86a0b8f45b31?auto=format&fit=crop&q=80",
+      image: "./assets/celikkons.jpg",
       description: "Endüstriyel tesisler, fabrika binaları, çelik köprüler ve özel projeler için yüksek kaliteli çelik konstrüksiyon çözümleri sunuyoruz.",
       features: ["Endüstriyel Yapılar", "Çelik Köprüler", "Depo ve Hangarlar"]
     },
     {
       id: 2,
       title: "Makine İmalat",
-      image: "https://images.unsplash.com/photo-1581092162384-8987c1d64926?auto=format&fit=crop&q=80",
+      image: "./assets/makineimalat.jpg",
       description: "Endüstriyel makineler, özel üretim hatları ve otomasyon sistemleri için kapsamlı makine imalat hizmetleri sağlıyoruz.",
       features: ["CNC İşleme", "Özel Makine Tasarımı", "Otomasyon Sistemleri"]
     },
     {
       id: 3,
       title: "Ağır Yük Taşıma",
-      image: "https://images.unsplash.com/photo-1565793298521-f7d0c13f1695?auto=format&fit=crop&q=80",
+      image: "./assets/agiryuk.jpg",
       description: "Endüstriyel ekipmanların güvenli ve profesyonel taşınması için özel çözümler sunuyoruz.",
       features: ["Proje Taşımacılığı", "Ağır Ekipman Taşıma", "Vinç Hizmetleri"]
     },
     {
       id: 4,
       title: "Bakım Onarım",
-      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80",
+      image: "./assets/bakim.jpg",
       description: "Endüstriyel tesislerin kesintisiz çalışması için kapsamlı bakım ve onarım hizmetleri sunuyoruz.",
       features: ["Periyodik Bakım", "Arıza Onarım", "Modernizasyon"]
     }
@@ -40,7 +40,7 @@ const ServicesPage = () => {
       <div className="relative h-[500px]">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80"
+            src="./assets/faaliyet.jpg"
             alt="Services Hero"
             className="w-full h-full object-cover"
           />

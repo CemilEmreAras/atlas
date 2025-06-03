@@ -5,7 +5,7 @@ const AboutPage = () => {
       <div className="relative h-[500px]">
         <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
           <img
-            src="/assets/pic1.jpg"
+            src="./assets/birinci.jpg"
             alt="About Hero"
             className="w-full h-full object-cover"
           />
@@ -87,29 +87,29 @@ const AboutPage = () => {
               <div className="grid grid-cols-2 gap-4">
                 <div className="aspect-square rounded-2xl overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1565793298148-2c79d6668449?auto=format&fit=crop&q=80" 
-                    alt="Fabrika" 
+                    src="./assets/ikinci.jpg" 
+                    alt="Metal İşçiliği" 
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <div className="aspect-square rounded-2xl overflow-hidden translate-y-8">
                   <img 
-                    src="https://images.unsplash.com/photo-1565793298521-f7d0c13f1695?auto=format&fit=crop&q=80" 
-                    alt="Üretim" 
+                    src="./assets/ucuncu.jpg" 
+                    alt="Çelik Üretimi" 
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <div className="aspect-square rounded-2xl overflow-hidden -translate-y-8">
                   <img 
-                    src="https://images.unsplash.com/photo-1581092162384-8987c1d64926?auto=format&fit=crop&q=80" 
-                    alt="Makine" 
+                    src="./assets/dort.jpg" 
+                    alt="CNC İşleme" 
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <div className="aspect-square rounded-2xl overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80" 
-                    alt="İşçilik" 
+                    src="./assets/bes.jpg" 
+                    alt="Kalite Kontrol" 
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   />
                 </div>

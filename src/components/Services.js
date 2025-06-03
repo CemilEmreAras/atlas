@@ -6,22 +6,22 @@ const Services = () => {
   const services = [
     {
       title: "Çelik Konstrüksiyon",
-      description: "İleri teknoloji çelik üretim ve işleme çözümleri ile endüstriyel yapılar inşa ediyoruz.",
+      description: "Endüstriyel tesislerden enerji santrallerine kadar geniş bir yelpazede, yüksek dayanım ve mühendislik gerektiren çelik konstrüksiyon çözümleri sunuyoruz.",
       image: "/assets/bridge.jpg"
     },
     {
       title: "Makine İmalat",
-      description: "Hassas metal döküm ve dökümhane operasyonları ile özel üretim çözümleri sunuyoruz.",
+      description: "Yüksek mühendislik ve üretim standartlarıyla, ağır sanayiye özel makine imalat çözümleri sunuyoruz.",
       image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80"
     },
     {
       title: "Ağır Yük Taşıma",
-      description: "Sıcak ve soğuk haddeleme tesisi operasyonları ile güvenli taşıma hizmeti veriyoruz.",
+      description: "Ağır sanayi projelerinde edindiğimiz deneyimle, özel ekipmanlarımız ve uzman ekibimizle, sahada minimum risk ve maksimum verimlilik sağlıyoruz.",
       image: "/assets/lifting.jpg"
     },
     {
       title: "Bakım Onarım",
-      description: "Özel metal işleme ve kaynak hizmetleri ile bakım ve onarım çözümleri sağlıyoruz.",
+      description: "Endüstriyel tesislerde üretim sürekliliğini sağlamak için, planlı bakım ve hızlı onarım çözümleri sunuyoruz.",
       image: "/assets/worker.jpg"
     }
   ];

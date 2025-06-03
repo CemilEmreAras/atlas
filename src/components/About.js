@@ -18,7 +18,7 @@ const About = () => {
               className="rounded-lg shadow-xl w-full h-[500px] object-cover"
             />
             <div className="absolute -bottom-10 -right-10 bg-yellow-500 p-8 rounded-lg hidden lg:block">
-              <div className="text-4xl font-bold text-white">25+</div>
+              <div className="text-4xl font-bold text-white">15+</div>
               <div className="text-white">Yıllık Tecrübe</div>
             </div>
           </div>
@@ -26,10 +26,10 @@ const About = () => {
           {/* Right Side - Content */}
           <div>
             <h2 className="text-4xl font-bold mb-6">
-              Sektörün Öncü Metal Sanayi Çözüm Sağlayıcısı
+            Metal Sanayinde Öncü Çözümler, Sürdürülebilir Başarı!
             </h2>
             <p className="text-gray-600 mb-6">
-              Yarım asrı aşkın tecrübemizle, metal sanayi sektörüne yenilikçi ve sürdürülebilir çözümler sunuyoruz. Modern teknolojimiz ve uzman kadromuzla müşterilerimizin ihtiyaçlarına özel çözümler üretiyoruz.
+            15 yılı aşkın sektör deneyimimizle, metal sanayi başta olmak üzere birçok endüstriye yenilikçi, güvenilir ve sürdürülebilir çözümler sunuyoruz. Modern teknolojimiz, güçlü mühendislik altyapımız ve uzman kadromuzla, müşterilerimizin ihtiyaçlarına özel, yüksek katma değerli hizmetler üretiyoruz.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mb-8">
